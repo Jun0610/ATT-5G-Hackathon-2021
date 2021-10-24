@@ -85,7 +85,7 @@ function createDownloadLink(blob) {
 
 
     //name of .wav file to use during upload and download (without extendion)
-    var filename = "Audio";
+    var filename = "audio";
 
     //add controls to the <audio> element
     au.controls = true;
@@ -110,7 +110,7 @@ function createDownloadLink(blob) {
     //add the new audio element to li
 
   
-    document.getElementsByTagName('a').src = url;
+    link.click();
    
 
 }
